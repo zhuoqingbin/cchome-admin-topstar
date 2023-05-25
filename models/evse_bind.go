@@ -1,8 +1,8 @@
 package models
 
 import (
-	"gitlab.goiot.net/chargingc/utils/gormv2"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/utils/gormv2"
+	"github.com/zhuoqingbin/utils/uuid"
 )
 
 type EvseBind struct {

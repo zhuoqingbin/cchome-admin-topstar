@@ -13,8 +13,8 @@ import (
 	"github.com/funny/link"
 	"github.com/funny/slab"
 	"github.com/sirupsen/logrus"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/itransac"
-	gp "gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/protocol"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/itransac"
+	gp "github.com/zhuoqingbin/cchome-admin-topstar/transac/protocol"
 )
 
 const connBuckets = 32

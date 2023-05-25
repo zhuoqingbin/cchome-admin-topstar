@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.goiot.net/chargingc/utils/gormv2"
+	"github.com/zhuoqingbin/utils/gormv2"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/sync/singleflight"
 	"gopkg.in/gomail.v2"

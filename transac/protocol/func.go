@@ -1,6 +1,6 @@
 package protocol
 
-import "gitlab.goiot.net/chargingc/pbs/evsepb"
+import "github.com/zhuoqingbin/pbs/evsepb"
 
 func getConnectState(s uint8) evsepb.ConnectorState {
 	if s&1 == 1 {

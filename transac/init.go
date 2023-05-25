@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/models"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/itransac"
-	gp "gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/protocol"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/tcp"
-	"gitlab.goiot.net/chargingc/utils/access/codec"
+	"github.com/zhuoqingbin/cchome-admin-topstar/models"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/itransac"
+	gp "github.com/zhuoqingbin/cchome-admin-topstar/transac/protocol"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/tcp"
+	"github.com/zhuoqingbin/utils/access/codec"
 )
 
 var tcpac *tcp.TMAC

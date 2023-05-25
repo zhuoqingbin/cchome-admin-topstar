@@ -10,8 +10,8 @@ import (
 	"github.com/astaxie/beego/context"
 
 	"github.com/garyburd/redigo/redis"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/models"
-	"gitlab.goiot.net/chargingc/utils/redigo"
+	"github.com/zhuoqingbin/cchome-admin-topstar/models"
+	"github.com/zhuoqingbin/utils/redigo"
 )
 
 var managers sync.Map

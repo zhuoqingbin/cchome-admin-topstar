@@ -3,8 +3,8 @@ package models
 import (
 	"context"
 
-	"gitlab.goiot.net/chargingc/utils/gormv2"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/utils/gormv2"
+	"github.com/zhuoqingbin/utils/uuid"
 )
 
 type Manager struct {

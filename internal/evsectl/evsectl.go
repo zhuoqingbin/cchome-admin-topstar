@@ -3,9 +3,9 @@ package evsectl
 import (
 	"fmt"
 
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/internal/appproto"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/protocol"
+	"github.com/zhuoqingbin/cchome-admin-topstar/internal/appproto"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/protocol"
 	"golang.org/x/sync/singleflight"
 )
 

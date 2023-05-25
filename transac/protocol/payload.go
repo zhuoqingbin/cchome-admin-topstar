@@ -3,7 +3,7 @@ package protocol
 import (
 	"errors"
 
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/itransac"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/itransac"
 )
 
 var ErrPayloadNotSupport = errors.New("payload not support")

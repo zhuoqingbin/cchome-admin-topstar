@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"gitlab.goiot.net/chargingc/utils/gormv2"
-	"gitlab.goiot.net/chargingc/utils/lg"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/utils/gormv2"
+	"github.com/zhuoqingbin/utils/lg"
+	"github.com/zhuoqingbin/utils/uuid"
 	"gopkg.in/gomail.v2"
 )
 

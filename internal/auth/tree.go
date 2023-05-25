@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/internal/lib"
+	"github.com/zhuoqingbin/cchome-admin-topstar/internal/lib"
 )
 
 type Tree struct {

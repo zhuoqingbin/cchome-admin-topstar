@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"gitlab.goiot.net/chargingc/pbs/evsepb"
-	"gitlab.goiot.net/chargingc/utils/gormv2"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/pbs/evsepb"
+	"github.com/zhuoqingbin/utils/gormv2"
+	"github.com/zhuoqingbin/utils/uuid"
 )
 
 type Connector struct {

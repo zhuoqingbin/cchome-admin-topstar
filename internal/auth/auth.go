@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/astaxie/beego/context"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/internal/lib"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/models"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/cchome-admin-topstar/internal/lib"
+	"github.com/zhuoqingbin/cchome-admin-topstar/models"
+	"github.com/zhuoqingbin/utils/uuid"
 )
 
 func GetSidebar(ctx *context.Context, user models.Manager, fixedPage string, refererUrl string) (menu, nav string, err error) {

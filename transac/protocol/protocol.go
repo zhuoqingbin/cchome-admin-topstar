@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/models"
-	"gitlab.goiot.net/chargingc/cchome-admin-topstar/transac/itransac"
-	"gitlab.goiot.net/chargingc/pbs/evsepb"
-	"gitlab.goiot.net/chargingc/utils/access/codec"
-	"gitlab.goiot.net/chargingc/utils/access/driver"
-	"gitlab.goiot.net/chargingc/utils/gormv2"
-	"gitlab.goiot.net/chargingc/utils/uuid"
+	"github.com/zhuoqingbin/cchome-admin-topstar/models"
+	"github.com/zhuoqingbin/cchome-admin-topstar/transac/itransac"
+	"github.com/zhuoqingbin/pbs/evsepb"
+	"github.com/zhuoqingbin/utils/access/codec"
+	"github.com/zhuoqingbin/utils/access/driver"
+	"github.com/zhuoqingbin/utils/gormv2"
+	"github.com/zhuoqingbin/utils/uuid"
 )
 
 type BootReq struct {
